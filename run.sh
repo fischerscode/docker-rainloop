@@ -45,7 +45,7 @@ fi
 
 chown -R www-data.www-data /var/www/html/data
 
-/adminpass.php "/var/www/html" "$RAINLOOP_ADMIN_PASSWORD"
+#/adminpass.php "/var/www/html" "$RAINLOOP_ADMIN_PASSWORD"
 
 source /etc/apache2/envvars
 exec apache2 -D FOREGROUND
